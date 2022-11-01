@@ -1,6 +1,6 @@
-<h1 align="center">🗨️ Say Something Submod</h1>
-<h3 align="center">Ask your Monika to say something and pose for you~</h3>
-[简体中文](README_zhCN.md)
+<h1 align="center">🗨️ 说点东西子模组</h1>
+<h3 align="center">让莫妮卡为你说你想听的话或摆你想看的姿势~</h3>
+
 <p align="center">
   <a href="https://github.com/friends-of-monika/mas-saysomething/releases/latest">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/friends-of-monika/mas-saysomething">
@@ -23,66 +23,56 @@
 </p>
 
 
-## 🌟 Features
+## 🌟 功能
 
-* Ask your Monika to say anything for you~
-* Comes with built-in expression changer!
-* Position switch that lets you place your Monika's table wherever you want it.
-* Supports multiple lines input~
-* [Allows viewing expression code][15] to aid submod development.
+* 让莫妮卡对你说任何话!
+* 一个内置的表情切换器!
+* 一个内置的开关, 让你将莫妮卡放在屏幕的任意位置.
+* 支持多行输入~
+* [允许查看表情代码][15]以帮助子模组的开发.
 
-## 🖼️ Screenshots
+## 🖼️ 截图
 
-![Monika is wondering, what is that menu...][12]
-![Monika is impressed][13]
+![莫妮卡在思考这是什么彩蛋...][12]
+![莫妮卡印象深刻][13]
 
-## ❓ Installing
+## ❓ 安装
 
-1. Go to [the latest release page][6] and scroll to Assets section.
-2. Download `say-something-VERSION-MASVERSION.zip` file for your current MAS
-   version.
-3. Drag and drop `game/` folder from it into your DDLC folder.
+1. 前往[最新发布][6]下滑到资源文件.
+2. 针对你的MAS版本下载对应的 `say-something-版本号-MAS版本号.zip` 
+3. 拖入你的`ddlc/mas`文件夹.
 
-   **NOTE:** make sure you don't drag it *into `game`*!
-4. You're all set!~
+   **NOTE:** 不要拖到*`game`*里面！
+4. 你已经准备好了!~
 
-## 🔧 Enabling expression codes
+## 🔧 启用表情代码
 
-To enable expression code display, your MAS has to be *in developer mode*. To
-enable this mode, create file `dev_devmode.rpy` in `game/Submods` with the
-following content:
+要显示表情代码，你的MAS必须在*开发模式*
+创建一个 `dev_devmode.rpy` 在 `game/Submods` 文件夹，并输入以下内容：
 
 ```renpy
 init python:
     config.developer = True
 ```
 
-Save and close this file. Restart the game, and now you'll have 'Show expression
-code' option displayed in Submods settings section, tick it and you'll have
-expression codes shown!~
+保存文件，重启游戏, 然后你会在Submod设置界面看到“显示表情代码”选项，勾选它即可。
 
-*Why so complex?* This is done to minimize immersion breaking expression
-selector screen already makes and hide this from users who are not submod
-developers and who do not need some obscure text displaying on their selector
-screen.
+*为什么这么复杂?* 这是尽量避免对表情选择界面的破坏，同时对非子模组开发者的一个优化，他们不需要晦涩难懂的代码。
 
-## 🏅 Special thanks
+## 🏅 特别感谢
 
-Say Something Submod authors, maintainers and contributors express their
-gratitude to the following people:
-* [SteveeWasTaken][1] &mdash; [MAS Custom Text][2] submod and original idea.
-* [MaximusDecimus][3] &mdash; [MAS Custom Text Revamp][4] submod.
+Say Something Submod的作者、维护者和贡献者对以下人员表示感谢：
+* [SteveeWasTaken][1] &mdash; [MAS Custom Text][2] 子模组和灵感来源.
+* [MaximusDecimus][3] &mdash; [MAS Custom Text Revamp][4] 子模组.
 
-Additionally, we thank these people for testing the submod before its public
-release:
-* [Otter][5] &mdash; early access preview.
-* [DJMayJay][14] &mdash; early access preview.
-* TheGuy &mdash; early access preview.
+此外，我们感谢这些人在公开发布前对该子模组进行测试:
+* [Otter][5] &mdash; 早期开发预览.
+* [DJMayJay][14] &mdash; 早期开发预览.
+* TheGuy &mdash; 早期开发预览.
 
-## 💬 Join our Discord
+## 💬 加入我们的 Discord
 
-We're up to chat! Come join submod author's Discord server [here][8] or come to chat at Friends
-of Monika Discord server [here][9].
+我们开始聊天了! 来加入 submod 作者的[Discord服务器][8] 或者加入 Friends of Monika 的 [Discord 服务器][9].
 
 [![Discord server invitation][10]][8]
 [![Discord server invitation][11]][9]
@@ -102,3 +92,4 @@ of Monika Discord server [here][9].
 [13]: doc/screenshots/2.png
 [14]: https://github.com/mayday-mayjay
 [15]: https://github.com/friends-of-monika/mas-saysomething#-enabling-expression-codes
+preview
