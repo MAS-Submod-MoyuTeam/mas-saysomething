@@ -72,7 +72,7 @@ Say Something Submod的作者、维护者和贡献者对以下人员表示感谢
 
 ## 💬 加入我们的 Discord
 
-我们开始聊天了! 来加入 submod 作者的[Discord服务器][8] 或者加入 Friends of Monika 的 [Discord 服务器][9].
+我们开始聊天了! 来加入 submod 作者的 [Discord服务器][8] 或者加入 Friends of Monika 的 [Discord 服务器][9].
 
 [![Discord server invitation][10]][8]
 [![Discord server invitation][11]][9]
