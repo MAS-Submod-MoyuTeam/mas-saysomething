@@ -1,6 +1,8 @@
 <h1 align="center">🗨️ Say Something Submod</h1>
-<h3 align="center">Ask your Monika to say something and pose for you~</h3>
-[简体中文](README_zhCN.md)
+<h3 align="center">Ask your Monika to say something and pose for you~</h3> 
+
+[简体中文](./README_zhCN.md)
+
 <p align="center">
   <a href="https://github.com/friends-of-monika/mas-saysomething/releases/latest">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/friends-of-monika/mas-saysomething">

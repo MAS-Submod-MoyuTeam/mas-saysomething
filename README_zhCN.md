@@ -91,4 +91,4 @@ Say Something Submod的作者、维护者和贡献者对以下人员表示感谢
 [12]: doc/screenshots/1.png
 [13]: doc/screenshots/2.png
 [14]: https://github.com/mayday-mayjay
-[15]: https://github.com/MAS-Submod-MoyuTeam/mas-saysomething#-启用表情代码
+[15]: https://github.com/MAS-Submod-MoyuTeam/mas-saysomething/blob/py2/README_zhCN.md#-%E5%90%AF%E7%94%A8%E8%A1%A8%E6%83%85%E4%BB%A3%E7%A0%81
