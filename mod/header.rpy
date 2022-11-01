@@ -8,8 +8,8 @@ init -990 python in mas_submod_utils:
 
     Submod(
         author="Friends of Monika",
-        name="Say Something",
-        description="Ask your Monika to say something and pose for you~",
+        name="说点东西",
+        description="让莫妮卡为你说你想听的话或摆你想看的姿势~",
         version="1.4.0",
         settings_pane="fom_saysomething_settings"
     )
@@ -20,7 +20,7 @@ init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
             submod="Say Something",
-            user_name="friends-of-monika",
+            user_name="MAS-Submod-MoyuTeam",
             repository_name="mas-saysomething",
             extraction_depth=3
         )
