@@ -82,7 +82,7 @@ Say Something Submod的作者、维护者和贡献者对以下人员表示感谢
 [3]: https://github.com/AzhamProdLive
 [4]: https://github.com/AzhamProdLive/AzhamMakesTrash-Submods/tree/main/Custom%20Text%20Revamp
 [5]: https://github.com/my-otter-self
-[6]: https://github.com/friends-of-monika/mas-saysomething/releases/latest
+[6]: https://github.com/MAS-Submod-MoyuTeam/mas-saysomething/releases/latest
 [7]: https://github.com/PencilMario
 [8]: https://dcache.me/discord
 [9]: https://mon.icu/discord
@@ -91,5 +91,4 @@ Say Something Submod的作者、维护者和贡献者对以下人员表示感谢
 [12]: doc/screenshots/1.png
 [13]: doc/screenshots/2.png
 [14]: https://github.com/mayday-mayjay
-[15]: https://github.com/friends-of-monika/mas-saysomething#-enabling-expression-codes
-preview
+[15]: https://github.com/MAS-Submod-MoyuTeam/mas-saysomething#-启用表情代码
