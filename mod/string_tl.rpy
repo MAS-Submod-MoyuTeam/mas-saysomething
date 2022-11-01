@@ -1,4 +1,4 @@
-translate chinese string:
+translate chinese strings:
     old "Show expression code"
     new "显示表情代码"
 
