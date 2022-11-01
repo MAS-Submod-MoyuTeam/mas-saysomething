@@ -155,9 +155,6 @@ translate chinese strings:
     old "Show buttons"
     new "显示按钮"
 
-    old "Pose"
-    new "摆Pose"
-
     old "Say"
     new "说"
 
