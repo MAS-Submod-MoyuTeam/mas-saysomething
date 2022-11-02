@@ -23,7 +23,7 @@ translate chinese strings:
     old "Point right, down"
     new "认真的指向右侧"
 
-    old "Normal"
+    old "Normal{#say_something_exp}"
     new "正常"
 
     old "Wide"
@@ -67,6 +67,9 @@ translate chinese strings:
 
     old "Pose"
     new "姿势"
+
+    old "Pose{say_something_pose_done}"
+    new "摆姿势"
 
     old "Eyes"
     new "眼睛"

@@ -43,7 +43,7 @@ init 100 python in _fom_saysomething:
             ("7", "Point right, down")
         ]),
         ("Eyes", [
-            ("e", "Normal"),
+            ("e", "Normal{#say_something_exp}"),
             ("w", "Wide"),
             ("s", "Sparkle"),
             ("t", "Smug"),
@@ -574,7 +574,7 @@ screen fom_saysomething_picker(say=True):
                         sensitive not picker.is_text_empty()
 
                 else:
-                    textbutton "Pose":
+                    textbutton "Pose{say_something_pose_done}":
                         action Return(_fom_saysomething.RETURN_DONE)
 
                 textbutton "Close" action Return(_fom_saysomething.RETURN_CLOSE) xalign 1.0
