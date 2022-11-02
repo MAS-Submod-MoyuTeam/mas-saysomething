@@ -10,7 +10,7 @@ init -990 python in mas_submod_utils:
         author="Friends of Monika",
         name="Say Something",
         description="让莫妮卡为你说你想听的话或摆你想看的姿势~",
-        version="1.4.1",
+        version="1.4.2",
         settings_pane="fom_saysomething_settings"
     )
 
