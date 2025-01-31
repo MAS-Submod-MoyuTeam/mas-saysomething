@@ -1,5 +1,8 @@
-<h1 align="center">🗨️ Say Something Submod</h1>
-<h3 align="center">Ask your Monika to say something and pose for you~</h3>
+<p align="center">
+  <img src="doc/SaySomething.png"
+       width="360" height="200">
+  <h3 align="center">Ask your Monika to say something and pose for you~</h3>
+</p>
 
 <p align="center">
   <a href="https://github.com/friends-of-monika/mas-saysomething/releases/latest">
@@ -14,7 +17,7 @@
   <a href="https://github.com/friends-of-monika/mas-saysomething/blob/main/LICENSE.txt">
     <img alt="MIT license badge" src="https://img.shields.io/badge/License-MIT-lightgrey.svg">
   </a>
-  <a href="https://dcache.me/discord">
+  <a href="https://mon.icu/discord">
     <img alt="Discord server" src="https://discordapp.com/api/guilds/1029849988953546802/widget.png?style=shield">
   </a>
   <a href="https://ko-fi.com/Y8Y15BC52">
@@ -25,16 +28,27 @@
 
 ## 🌟 Features
 
-* Ask your Monika to say anything for you~
+* Ask your Monika to say anything for you!
 * Comes with built-in expression changer!
-* Position switch that lets you place your Monika's table wherever you want it.
-* Supports multiple lines input~
-* [Allows viewing expression code][15] to aid submod development.
+* Position switch that lets you place your Monika's table wherever you want it!
+* Supports multiline input!
+* Allows viewing expression code to aid submod development!
 
 ## 🖼️ Screenshots
 
-![Monika is wondering, what is that menu...][12]
-![Monika is impressed][13]
+<details>
+  <summary>Show all screenshots...</summary>
+  <table>
+    <tr>
+      <td><img src="doc/screenshots/Screenshot0.png" alt="GUI example"></td>
+      <td><img src="doc/screenshots/Screenshot1.png" alt="Topics overview"></td>
+    </tr>
+    <tr>
+      <td><img src="doc/screenshots/Screenshot2.png" alt="Speech saving"></td>
+      <td><img src="doc/screenshots/Screenshot3.png" alt="Generating topic"></td>
+    </tr>
+  </table>
+</details>
 
 ## ❓ Installing
 
@@ -45,26 +59,6 @@
 
    **NOTE:** make sure you don't drag it *into `game`*!
 4. You're all set!~
-
-## 🔧 Enabling expression codes
-
-To enable expression code display, your MAS has to be *in developer mode*. To
-enable this mode, create file `dev_devmode.rpy` in `game/Submods` with the
-following content:
-
-```renpy
-init python:
-    config.developer = True
-```
-
-Save and close this file. Restart the game, and now you'll have 'Show expression
-code' option displayed in Submods settings section, tick it and you'll have
-expression codes shown!~
-
-*Why so complex?* This is done to minimize immersion breaking expression
-selector screen already makes and hide this from users who are not submod
-developers and who do not need some obscure text displaying on their selector
-screen.
 
 ## 🏅 Special thanks
 
@@ -81,11 +75,9 @@ release:
 
 ## 💬 Join our Discord
 
-We're up to chat! Come join submod author's Discord server [here][8] or come to chat at Friends
-of Monika Discord server [here][9].
+We're up to chat! Come join submod author's Discord server [here][8].
 
 [![Discord server invitation][10]][8]
-[![Discord server invitation][11]][9]
 
 [1]: https://github.com/SteveeWasTaken
 [2]: https://github.com/SteveeWasTaken/mas-custom-text
@@ -97,8 +89,8 @@ of Monika Discord server [here][9].
 [8]: https://dcache.me/discord
 [9]: https://mon.icu/discord
 [10]: https://discordapp.com/api/guilds/1029849988953546802/widget.png?style=banner3
-[11]: https://discordapp.com/api/guilds/970747033071804426/widget.png?style=banner3
-[12]: doc/screenshots/1.png
-[13]: doc/screenshots/2.png
+[12]: doc/screenshots/Screenshot0.png
+[13]: doc/screenshots/Screenshot1.png
 [14]: https://github.com/mayday-mayjay
-[15]: https://github.com/friends-of-monika/mas-saysomething#-enabling-expression-codes
+[15]: doc/screenshots/Screenshot2.png
+[16]: doc/screenshots/Screenshot3.png
